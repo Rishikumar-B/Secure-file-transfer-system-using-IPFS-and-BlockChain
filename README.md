@@ -41,6 +41,6 @@ AES Encryption is a form of symmetric, cryptographic encryption that depends on 
 
 RESULT
 
-To test our application, we ran two instances of SAEFE on the computer locally at different ports, which served as two different and independent nodes (let’s say node A and node B). From both of them, we connected to the blockchain network and shared files using file keys. From node A, we uploaded a file ‘x’ using file key ‘P’. We then downloaded the file ‘x’ from node B using the same key P’. Subsequently, we uploaded a file ‘y’ from node B using file key ‘Q’ and downloaded the file ‘y’ from node ‘A’ using the file key ‘Q’ After the consequent sharing of the two files, the blockchain was updated at both the nodes.
+To test our application, we ran two instances in this project on the computer locally at different ports, which served as two different and independent nodes (let’s say node A and node B). From both of them, we connected to the blockchain network and shared files using file keys. From node A, we uploaded a file ‘x’ using file key ‘P’. We then downloaded the file ‘x’ from node B using the same key P’. Subsequently, we uploaded a file ‘y’ from node B using file key ‘Q’ and downloaded the file ‘y’ from node ‘A’ using the file key ‘Q’ After the consequent sharing of the two files, the blockchain was updated at both the nodes.
 
 
