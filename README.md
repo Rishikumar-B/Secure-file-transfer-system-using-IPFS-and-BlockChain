@@ -40,6 +40,7 @@ We use the SHA-256 algorithm to generate a unique hash of the entire block that 
 AES Encryption is a form of symmetric, cryptographic encryption that depends on a shared key between the sender and receiver to access any file (here the file key) . If we had not employed the AES encryption, any connected user to the blockchain can access the file hash and thus, the shared file using the hash, directly from the IPFS. Using the AES Encryption, we encrypt the file using the file key of the uploader. Thus, if any user tries to download the file directly from the IPFS, all they get is a non-readable file. Thus, only users with a valid file key can access the readable file contents, thereby enhancing the security of the blockchain and the file contents.
 
 RESULT
+
 To test our application, we ran two instances of SAEFE on the computer locally at different ports, which served as two different and independent nodes (let’s say node A and node B). From both of them, we connected to the blockchain network and shared files using file keys. From node A, we uploaded a file ‘x’ using file key ‘P’. We then downloaded the file ‘x’ from node B using the same key P’. Subsequently, we uploaded a file ‘y’ from node B using file key ‘Q’ and downloaded the file ‘y’ from node ‘A’ using the file key ‘Q’ After the consequent sharing of the two files, the blockchain was updated at both the nodes.
 
 
